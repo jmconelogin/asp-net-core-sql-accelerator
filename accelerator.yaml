@@ -1,12 +1,11 @@
 accelerator:
-  displayName: Steeltoe Weather Forecast
-  description: A Steeltoe sample accelerator
+  displayName: ASP Net Core app with SQL Database
+  description: A ready to publish Azure net core web application comes with Entity Framework backend.
   iconUrl: https://raw.githubusercontent.com/sample-accelerators/icons/master/icon-steeltoe.png
   tags:
   - dotnet
   - c#
-  - steeltoe
-  - tanzu
+  - entityframework
 
   options:
   - name: applicationName
