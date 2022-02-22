@@ -1,5 +1,5 @@
 accelerator:
-  displayName: CVS ASP Net Core w/ SQL App-Service
+  displayName: CVS Net Core SPA Azure App-Service with Redis, Azure Event Grid, SQL
   description: A ready to publish Azure net core web application comes with Entity Framework SQL backend.
   iconUrl: https://raw.githubusercontent.com/sample-accelerators/icons/master/icon-steeltoe.png
   tags:
@@ -7,14 +7,26 @@ accelerator:
   - c#
   - entityframework
   - asp
+  - redis
+  - sql
 
   options:
-  - name: applicationName
-    label: Application Name
-    description: Application Name
-    inputType: text
-    defaultValue: Sample
-    required: true
+  - name: workspace
+    label: Workspace name
+    display: true
+    defaultValue: "Red"
+  - name: subscription
+    label: Subscription
+    display: true
+    defaultValue: ""
+  - name: resourceGroup
+    label: Resource Group
+    display: true
+    defaultValue: ""
+  - name: location
+    label: Location
+    display: true  
+    defaultValue: ""  
 
 engine:
   merge:
