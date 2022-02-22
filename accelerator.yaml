@@ -1,5 +1,5 @@
 accelerator:
-  displayName: ASP Net Core app-service with SQL Database
+  displayName: CVS ASP Net Core app-service with SQL Database
   description: A ready to publish Azure net core web application comes with Entity Framework backend.
   iconUrl: https://raw.githubusercontent.com/sample-accelerators/icons/master/icon-steeltoe.png
   tags:
