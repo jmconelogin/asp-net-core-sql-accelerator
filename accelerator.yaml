@@ -6,6 +6,7 @@ accelerator:
   - dotnet
   - c#
   - entityframework
+  - asp
 
   options:
   - name: applicationName
