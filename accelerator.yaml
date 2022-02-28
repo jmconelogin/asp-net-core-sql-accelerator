@@ -1,5 +1,5 @@
 accelerator:
-  displayName: CVS Net Core SPA Azure App-Service with Redis, Azure Event Grid, SQL
+  displayName: CVS Net Core SPA App-Service
   description: A ready to publish Azure net core web application comes with Entity Framework SQL backend.
   iconUrl: https://github.com/jmconelogin/jmconelogin/blob/main/custom_logo.png?raw=true
   tags:
@@ -10,6 +10,11 @@ accelerator:
   - redis
   - sql
   - retail
+  - spa
+  - redos
+  - azure
+  - event_grid
+  - k8
 
   options:
   - name: workspace
