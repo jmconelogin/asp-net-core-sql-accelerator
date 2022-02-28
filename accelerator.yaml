@@ -13,7 +13,7 @@ accelerator:
   - spa
   - redos
   - azure
-  - event_grid
+  - eventgrid
   - k8
 
   options:
