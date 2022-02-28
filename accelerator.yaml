@@ -9,6 +9,7 @@ accelerator:
   - asp
   - redis
   - sql
+  - retail
 
   options:
   - name: workspace
